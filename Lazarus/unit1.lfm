@@ -1,0 +1,47 @@
+object Form1: TForm1
+  Left = 256
+  Height = 282
+  Top = 145
+  Width = 711
+  Caption = 'Form1'
+  ClientHeight = 282
+  ClientWidth = 711
+  OnCreate = FormCreate
+  LCLVersion = '2.0.9.0'
+  object Button1: TButton
+    Left = 16
+    Height = 57
+    Top = 200
+    Width = 312
+    Caption = 'Button1 using flat functions'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Memo1: TMemo
+    Left = 16
+    Height = 146
+    Top = 40
+    Width = 672
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 1
+  end
+  object Edit1: TEdit
+    Left = 16
+    Height = 23
+    Top = 8
+    Width = 672
+    TabOrder = 2
+    Text = 'Edit1'
+  end
+  object Button2: TButton
+    Left = 343
+    Height = 57
+    Top = 200
+    Width = 345
+    Caption = 'Button2 using experimental IFaceRecognition Interface'
+    OnClick = Button2Click
+    TabOrder = 3
+  end
+end

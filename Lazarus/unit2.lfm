@@ -1,0 +1,31 @@
+object Form2: TForm2
+  Left = 594
+  Height = 277
+  Top = 249
+  Width = 455
+  Caption = 'Form2'
+  ClientHeight = 277
+  ClientWidth = 455
+  LCLVersion = '2.0.9.0'
+  object ScrollBox1: TScrollBox
+    Left = 0
+    Height = 277
+    Top = 0
+    Width = 455
+    HorzScrollBar.Page = 90
+    VertScrollBar.Page = 90
+    Align = alClient
+    ClientHeight = 273
+    ClientWidth = 451
+    TabOrder = 0
+    object Image1: TImage
+      Left = 0
+      Height = 273
+      Top = 0
+      Width = 451
+      Align = alClient
+      AutoSize = True
+      Proportional = True
+    end
+  end
+end
